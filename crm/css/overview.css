@@ -1,0 +1,325 @@
+.dev-btn {
+	display: none;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	-moz-opacity: 0.75;
+	-khtml-opacity: 0.75;
+	opacity: 0.75;
+}
+.body {
+	background-color: #EEE;				
+}
+.brand-style {
+	padding-left: 72px;
+	color: #37A3B8;
+}
+.brand-logo {				
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+.sidebar-divider {
+	width: 100%;
+	height: 2px;
+	background-color: #333;
+}
+.search-dropdown {
+	position: fixed;
+	top: 7px;
+	left: 370px;
+	right: 325px;				
+}
+	.search-dropdown-input {
+		color: #BBB;
+		background-color: #222;
+		border-color: #555;
+	}
+	.search-dropdown-btn  {
+		color: #999;
+		background-color: #222;	
+		border-color: #555;
+	}
+	.search-dropdown-btn:hover, .search-dropdown-btn:focus {
+		color: white;
+		background-color: black;	
+		border-color: #555;
+	}
+
+.icon-spacing {
+	margin-right: 25px;
+}
+
+.badge-messages {				
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #666;
+}
+
+.overview-icon-size {
+	font-size: 3em;
+}
+.overview-title {
+	font-size: 1.75em;
+	padding-left: 30px;	
+}
+.overview-name {
+	font-size: 1.25em;
+	padding-left: 16px;
+}
+.overview-value {
+	font-weight: 800;
+	font-size: 1.5em;
+	padding-right: 16px;
+	padding-bottom: 5px;
+}
+
+.header-tag {
+	position: relative;
+}
+	.header-span {
+		float: right;
+  		padding-right: 8px;  		
+	}
+
+.modal-spacing {
+	padding-bottom: 20px;
+}
+
+.project-entry {
+	border: #EEE 1px solid;
+}
+
+.start-date {}
+.end-date {}
+
+/* projects.php */
+	.projects-title {
+		padding-left: 30px;
+		font-size: 2em;
+	}
+	.projects-all-projects {
+		float: right;
+		padding-top: 10px;
+		padding-right: 10px;	
+		font-size: 1.5em;
+	}
+		.projects-all-projects-value {
+			padding-left: 25px;
+		}
+	.projects-header-value {
+		font-weight: 800;
+		font-size: 1.5em;
+	}
+	.projects-add-project-icon {
+		padding-right: 30px;
+	}
+	/* project entries */
+	.project-entry-priority {
+		border: 5px #EEE solid;
+		background-color: blue;
+		height: 50px;
+	}
+	.project-entry-project-name {
+		color: #398439;
+		font-size: 1.5em;
+	}
+	.project-entry-project-id {
+		color: #BABABA;
+		font-size: 1.5em;
+	}
+	.project-entry-project-client-name {
+		color: #C85C47;
+		font-size: 1.4em;
+	}
+	.project-entry-project-description {
+		color: #0480BE;
+		font-size: 1.1em;
+	}
+	.project-entry-project-start-date {
+		color: #419641;
+		font-size: 2em;
+	}
+	.project-entry-project-end-date {
+		color: #B94A48;
+		font-size: 2em;		
+	}
+	.project-modal-delete-text {
+		font-size: 1.75em;
+		
+	}
+	.project-modal-delete-name {
+		color: #D43F3A;
+		font-size: 2.5em;
+	}
+	.project-modal-delete-value {
+		color: #C12E2A;
+		font-size: 3em;
+	}
+		.project-entry-priority-zero { background-color:#C0C0C0; }
+		.project-entry-priority-low { background-color:#269ABC; }
+		.project-entry-priority-normal { background-color:#398439; }
+		.project-entry-priority-high { background-color:#D58512; }
+		.project-entry-priority-super { background-color:#C9302C; }
+		
+		.project-entry-status-ongoing { background-color:#DFF0D8; }
+		.project-entry-status-completed { background-color:#B9DEF0; }
+		.project-entry-status-canceled { background-color:#E7C3C3; }
+		.project-entry-status-archived { background-color:#F5E79E; }
+	/* task entries */
+	.task-entry-task-priority {
+		border: 5px #C8E5BC solid;
+		background-color: green;
+		height: 30px;
+	}
+	.task-entry-task-name {
+		color: #555;
+		font-weight: 800;
+		font-size: 1em;
+	}
+	.task-entry-task-owner {
+		color: #AC2925;
+		font-weight: 800;
+		font-size: 1em;
+	}
+		.task-entry-priority-zero { background-color:#C0C0C0; }
+		.task-entry-priority-low { background-color:#269ABC; }
+		.task-entry-priority-normal { background-color:#398439; }
+		.task-entry-priority-high { background-color:#D58512; }
+		.task-entry-priority-super { background-color:#C9302C; }
+/* profile.php */
+	.profile-header-userid-name {
+		padding-right: 20px;
+		font-size: 1.5em;
+		color: #7ABA7B;
+	}
+	.profile-header-userid-value {
+		font-size: 2.2em;
+	}
+	.profile-username-title {
+		font-size: 1.3em;
+		color: #DBC59E;
+	}
+	.profile-username-first {
+		font-size: 2.2em;
+		color: #AC2925;
+	}
+	.profile-username-last {
+		font-size: 2.4em;
+		color: #D58512;
+	}
+	
+	.profile-type-title {
+		font-size: 1.25em;
+		color: #B2DBA1;
+	}
+	.profile-type-value {
+		font-size: 2em;
+		color: #D93F3F;
+	}
+	.profile-registered-title {
+		font-size: 1.1em;
+		color: #B2DBA1;
+	}
+	.profile-registered-value {
+		font-size: 1.5em;
+		color: #5CB85C;
+	}
+	
+	.profile-location-title {
+		padding-right:15px;
+		font-size: 1.2em;
+		color: #D58512;
+	}
+	.profile-country-value {
+		font-size: 1.75em;
+		color: #AC2925;
+	}
+	.profile-line1-value {
+		font-size: 1.75em;
+		color: #AC2925;
+	}
+	.profile-line2-value {
+		font-size: 1.75em;
+		color: #AC2925;
+	}
+	.profile-city-value {
+		font-size: 1.75em;
+		color: #AC2925;
+	}
+	.profile-zip-value {
+		font-size: 1.75em;
+		color: #AC2925;
+	}
+	.profile-phone-value {
+		font-size: 1.75em;
+		color: #AC2925;
+	}
+	.profile-email-title {
+		font-size: 0.9em;
+		color: #0480BE;
+	}
+	.profile-email-value {
+		font-size: 1.5em;
+		color: #0480BE;
+	}
+	
+/* messages.php */
+	.message-all-title{
+		padding-right: 20px;
+		font-size: 1.2em;		
+	}
+	.message-all-value{
+		padding-right: 10px;
+		font-size: 2em;
+	}
+	.message-inbox-title {
+		font-size: 2.4em;
+	}
+	.message-sent-title {
+		margin-left: 100px;
+		font-size: 2.4em;
+	}
+	.message-read-normal {
+		background-color: #F9F9F9;
+	}
+		.message-read-normal:hover {
+			background-color: #F8EFC0;
+		}
+	.message-unread-normal {
+		background-color: #F5E79E;
+	}
+		.message-unread-normal:hover {
+			background-color: #F0AD4E;
+		}
+	.message-read-issue {
+		background-color: #F8EFC0;
+	}
+		.message-read-issue:hover {
+			background-color: #F0C49B;
+		}
+	.message-unread-issue {
+		background-color: #F0C49B;
+	}
+		.message-unread-issue:hover {
+			background-color: #EEA236;
+		}
+	
+	.message-entry-icon {
+		padding-right: 35px;
+		color: #D93F3F;
+		font-size: 1.5em;
+	}
+	.message-entry-sender {
+		color: #0480BE;
+		font-size: 1.5em;
+	}
+	.message-entry-subject {
+		color: #468847;
+		font-size: 1.5em;		
+	}
+	.message-entry-date {
+		color: #0480BE;
+		font-size: 1em;
+		font-weight: bold;
+	}

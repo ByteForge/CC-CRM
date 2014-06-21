@@ -1,0 +1,63 @@
+.dev-btn {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	-moz-opacity: 0.75;
+	-khtml-opacity: 0.75;
+	opacity: 0.75;
+}
+
+.sign-in-body {
+	margin: 0;
+	padding: 0;
+	background-color: #EEE;
+}
+.sign-in-navbar {
+	background-color: #222222;
+	border-color: #080808;
+}
+.sign-in-userid {
+	margin-top: 50px;
+	padding-bottom: 10px;
+}
+.sign-in-password {
+	padding-bottom: 30px;
+}
+.sign-in-btns {
+	margin-top: 20px;	
+	/* background-color: #37A3B8; */			
+}
+	.sign-in-btn-submit {
+		background-color: #37A3B8;			
+	}
+	.sign-in-btn-remember-on {
+		background-color: #c85c47;			
+	}
+	.sign-in-btn-remember-off,
+	.sign-in-btn-remember-off:link,
+	.sign-in-btn-remember-off:hover,
+	.sign-in-btn-remember-off:visited {
+		color: gray;
+		background-color: #bababa;
+		border-color: gray;			
+	}
+	
+.brand-style {
+	display: block;
+	padding-bottom: 30px;
+	
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	color: #37A3B8;
+}
+.brand-style-lg {
+	font-size: 1.25em;
+	color: #37A3B8;
+}
+.brand-logo {
+	display: block;
+	margin: 0 auto;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
